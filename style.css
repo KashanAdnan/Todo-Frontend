@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans";
+}
+
+body {
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.form {
+    width: 55%;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form .inputs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form .inputs input {
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid darkblue;
+    outline: none;
+    font-size: 15px;
+}
+
+.form .inputs button {
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid darkblue;
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.form .container {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.form .container li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    list-style: decimal !important;
+    margin-top: 10px;
+}
+
+.form .container li button {
+    padding: 10px;
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-left: 10px;
+}
+
+.form .container li button i {
+    font-size: 18px;
+}
+
+.form .container li button:hover {
+    background-color: transparent;
+    color: darkblue;
+}
+
+.form .container li input {
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid darkblue;
+    padding: 10px 0;
+}
+
+#how{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+}
+
+.not{
+    font-size: 19px;
+    color: #555;
+    margin-top: 15px;
+}
